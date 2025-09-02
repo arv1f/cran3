@@ -15,8 +15,8 @@ function UpHeader() {
   }
 
   return (
-    <div className={`relative px-[10%] lg:pl-[15%] -ml-[10%] w-[120%] grid grid-cols-[1fr_auto] md:grid-cols-[105%_auto] bg-[#101010] py-[2px] sm:py-[4px] md:py-[4px] lg:py-[6px] xl:py-[8px] flex items-center px-4 transition-opacity duration-300 ${isHiding ? 'opacity-0' : 'opacity-100'}`}>
-      <div className="text-xs text-center">✨Проведём аудит и предложим оптимальное решение за 48 часов✨</div>
+    <div className={`relative px-[10%] lg:pl-[15%] -ml-[10%] w-[120%] lg:w-[120%] grid grid-cols-[1fr_auto] md:grid-cols-[95%_auto] lg:grid-cols-[105%_auto] bg-[#101010] py-[2px] sm:py-[4px] md:py-[4px] lg:py-[6px] xl:py-[8px] flex items-center px-4 transition-opacity duration-300 ${isHiding ? 'opacity-0' : 'opacity-100'}`}>
+      <div className="z-10 text-xs text-center">✨Проведём аудит и предложим оптимальное решение за 48 часов✨</div>
       <button 
         className="cursor-pointer border-none bg-[rgba(255,255,255,0.1)] w-[30px] h-[30px] lg:w-[32px] lg:h-[32px] rounded-full flex items-center justify-center z-10 relative hover:bg-[#050505]"
         onClick={handleClose}

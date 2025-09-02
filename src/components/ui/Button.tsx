@@ -1,4 +1,5 @@
-interface ButtonProps {
+import type { ButtonHTMLAttributes } from 'react';
+interface ButtonProps extends ButtonHTMLAttributes<HTMLButtonElement> {
   children: string;
   buttonType?: "black" | "purple";
   borderTransparent?: boolean;

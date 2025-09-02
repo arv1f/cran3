@@ -17,7 +17,7 @@ const Cell = ({
       {...props}
     >
       <div className="text-[32px] tracking-normal leading-tight font-[600]">{heading}</div>
-      <div className="text-xs text-[#F5DFDF] w-[90%] mt-1">{children}</div>
+      <div className="text-xs w-[90%] mt-1 text-[#999999]">{children}</div>
     </div>
   );
 };
