@@ -1,21 +1,22 @@
-import DownFooter from "../components/DownFooter";
-import Footer from "../components/Footer";
-import Header from "../components/Header";
-import UpHeader from "../components/UpHeader";
+import ContactContainer1 from "../components/Contact/ContactContainer1";
+import ContactContainer2 from "../components/Contact/ContactContainer2";
+import ContactContainer3 from "../components/Contact/ContactContainer3";
+import ContactSpace1 from "../components/Contact/ContactSpace1";
+import ContactSpace2 from "../components/Contact/ContactSpace2";
+import ContactSpace3 from "../components/Contact/ContactSpace3";
+import HomeContainer7 from "../components/Home/HomeContainer7";
 
 function Contact() {
   return(
-    <div className="grid grid-cols-12 bg-[#101010] z-0 text-[#ffffff] min-h-screen overflow-x-hidden">
-      <div className="hidden lg:block col-span-1"></div>
-      <div className="col-span-12 lg:col-span-10">
-      <UpHeader />
-      <Header />
-
-      <Footer />
-      <DownFooter/>
-      </div>
-      <div className="hidden lg:block lg:col-span-1"></div>
-    </div>
+    <>
+      <ContactContainer1 />
+      <ContactSpace1 />
+      <ContactContainer2 />
+      <ContactSpace2 />
+      <ContactContainer3 />
+      <HomeContainer7 />
+      <ContactSpace3 />
+    </>
   );
 };
 export default Contact;

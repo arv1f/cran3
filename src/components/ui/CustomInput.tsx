@@ -8,7 +8,7 @@ interface InputProps extends InputHTMLAttributes<HTMLInputElement> {
   icon?: "call" | "mail" | "telegram";
 }
 
-const Input = forwardRef<HTMLInputElement, InputProps>(
+const CustomInput = forwardRef<HTMLInputElement, InputProps>(
   ({ label, error, success, fullWidth = true, className = '', ...props }, ref) => {
     const [isFocused, setIsFocused] = useState(false);
 
@@ -74,5 +74,5 @@ const Input = forwardRef<HTMLInputElement, InputProps>(
     );
   }
 );
-Input.displayName = 'Input';
-export default Input;
+CustomInput.displayName = 'CustomInput';
+export default CustomInput;

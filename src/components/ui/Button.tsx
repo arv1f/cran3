@@ -12,7 +12,7 @@ const Button = ({
   className,
   ...props
 }: ButtonProps) => {
-  let baseStyles = "text-nowrap text-[#F5DFDF] text-medium w-fit px-[15px] xl:px-[15px] h-[48px] flex items-center justify-center border hover:border-[#262626]";
+  let baseStyles = "z-10 text-[#F5DFDF] text-medium w-fit px-[15px] xl:px-[15px] h-[48px] flex items-center justify-center border hover:border-[#262626]";
 
   if (borderTransparent){//Для кнопки Контакты из header
     baseStyles += " border-transparent";

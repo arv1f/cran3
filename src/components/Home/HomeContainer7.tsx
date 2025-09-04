@@ -18,16 +18,18 @@ function HomeContainer7() {
       </div>
 
       <div className="grid grid-rows-[70%] grid-cols-1 lg:grid-rows-1 lg:grid-cols-[80%_auto] lg:mt-10 h-[150px]">
-        <div className="flex items-start justify-cente space-x-2 mt-2">
-        <input type="checkbox" 
-          className="w-4 h-4 mt-0.5 bg-[#1A1A1A] checked:bg-[#1A1A1A] border border-[#262626] rounded-none" />
-        <span className="row-start-1 col-start-1 block mt-0.5 text-xs text-[#999999] font-inter leading-tight">
-          Даю согласие на{" "}
-          <span className="underline underline-offset-2">обработку персональных данных</span>{" "}
-          и{" "}
-          <span className="underline underline-offset-2">соглашаюсь с политикой конфиденциальности.</span>
-        </span>
-      </div>
+        <div className="flex items-start space-x-2 mt-2">
+          <input 
+            type="checkbox" 
+            className="w-5 h-5 bg-[#1A1A1A] checked:bg-[#1A1A1A] border border-[#262626] rounded-none flex-shrink-0 focus:ring-0 cursor-pointer" 
+          />
+          <span className="text-xs text-[#999999] whitespace-normal md:whitespace-nowrap">
+            Даю согласие на{" "}
+            <span className="underline underline-offset-4 cursor-pointer hover:text-white">обработку персональных данных</span>{" "}
+            и{" "}
+            <span className="underline underline-offset-4 cursor-pointer hover:text-white">соглашаюсь с политикой конфиденциальности.</span>
+          </span>
+        </div>
       <Button buttonType="purple" className="row-start-2 lg:row-start-1 lg:col-start-2 lg:-ml-4 xl:ml-11 w-[102%]">Оставить заявку</Button>
       </div>
     </div>

@@ -7,7 +7,7 @@ function HomeSpace5() {
         src="src\public\image\stars.png"/>
       <div className="grid lg:grid-cols-[1fr_auto] mt-2">
         <div>
-          <div className="text-sm md:text-[20px] lg:text-[24px] xl:text-[40px] 2xl:text-[40px] tracking-normal leading-tight font-bold">Дайджест наших статей</div>
+          <div className="text-2xl md:text-[30px] lg:text-[30px] xl:text-[40px] 2xl:text-[40px] tracking-normal leading-tight font-bold">Дайджест наших статей</div>
           <div className="text-xs text-[#999999] w-[90%] mt-3 text-[Inter]">Наши материалы — о том, как ИИ и автоматизация работают на рентабельность Вашего бизнеса.</div>
         </div>
         <Button buttonType="black" className="mt-4 lg:mt-9 w-[110px] text-medium bg-[#1A1A1A] border border-[#272727]">Наш блог</Button>

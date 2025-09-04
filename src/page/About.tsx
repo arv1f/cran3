@@ -1,38 +1,34 @@
-import UpHeader from "../components/UpHeader";
-import Header from "../components/Header";
 import AboutContainer1 from "../components/About/AboutContainer1";
-import AboutSpace2 from "../components/About/AboutContainer2";
 import AboutContainer2 from "../components/About/AboutContainer2";
 import AboutContainer3 from "../components/About/AboutContainer3";
+import AboutContainer4 from "../components/About/AboutContainer4";
+import AboutContainer5 from "../components/About/AboutContainer5";
+import AboutContainer6 from "../components/About/AboutContainer6";
 import AboutSpace1 from "../components/About/AboutSpace1";
+import AboutSpace2 from "../components/About/AboutSpace2";
 import AboutSpace3 from "../components/About/AboutSpace3";
-
-
-
-
-import Footer from "../components/Footer";
-import DownFooter from "../components/DownFooter";
+import AboutSpace4 from "../components/About/AboutSpace4";
+import AboutSpace5 from "../components/About/AboutSpace5";
+import AboutSpace6 from "../components/About/AboutSpace6";
+import HomeContainer7 from "../components/Home/HomeContainer7";
 
 function About() {
   return(
-    <div className="grid grid-cols-12 bg-[#101010] z-0 text-[#ffffff] min-h-screen overflow-x-hidden">
-      <div className="hidden lg:block col-span-1"></div>
-      <div className="col-span-12 lg:col-span-10">
-      <UpHeader />
-      <Header />
-
+    <>
       <AboutContainer1/>
       <AboutSpace1/>
       <AboutContainer2/>
       <AboutSpace2/>
       <AboutContainer3/>
       <AboutSpace3/>
-
-      <Footer />
-      <DownFooter/>
-      </div>
-      <div className="hidden lg:block lg:col-span-1"></div>
-    </div>
+      <AboutContainer4/>
+      <AboutSpace4/>
+      <AboutContainer5/>
+      <AboutSpace5/>
+      <AboutContainer6/>
+      <AboutSpace6/>
+      <HomeContainer7/>
+    </>
   );
 };
 export default About;

@@ -15,45 +15,45 @@ function Footer() {
         </div>
       </div>
       <div className="grid grid-rows-4 grid-cols-2 lg:grid-cols-1 lg:grid-rows-8 h-[180px] lg:h-[360px]">
-        <div className="text-[#999999] text-sm">Главная</div>
-        <div>Главный банер</div>
-        <div>О нас</div>
-        <div>Подход</div>
-        <div>Сотрудничество</div>
-        <div>Отзывы</div>
-        <div>Блог</div>
-        <div>Заявка</div>
+        <a className="text-[#999999] text-sm cursor-poiner hover:text-white hover:opacity-80 h-fit w-fit">Главная</a>
+        <a className="opacity-85 cursor-pointer hover:opacity-100 h-4 w-fit">Главный банер</a>
+        <a className="opacity-85 cursor-pointer hover:opacity-100 h-4 w-fit">О нас</a>
+        <a className="opacity-85 cursor-pointer hover:opacity-100 h-4 w-fit">Подход</a>
+        <a className="opacity-85 cursor-pointer hover:opacity-100 h-4 w-fit">Сотрудничество</a>
+        <a className="opacity-85 cursor-pointer hover:opacity-100 h-4 w-fit">Отзывы</a>
+        <a className="opacity-85 cursor-pointer hover:opacity-100 h-4 w-fit">Блог</a>
+        <a className="opacity-85 cursor-pointer hover:opacity-100 h-4 w-fit">Заявка</a>
       </div>
       <div className="grid grid-rows-5 grid-cols-2 lg:grid-cols-1 lg:grid-rows-9 h-[225px] lg:h-[405px]">
-        <div className="text-[#999999] text-sm">О компании</div>
-        <div>Главный банер</div>
-        <div>Миссия</div>
-        <div>Преимущества</div>
-        <div>Команда</div>
-        <div>Ценности</div>
-        <div>Вакансии</div>
-        <div>Документы</div>
-        <div>Заявка</div>
+        <a className="text-[#999999] text-sm cursor-poiner hover:text-white hover:opacity-80 h-fit w-fit">О компании</a>
+        <a className="opacity-85 cursor-pointer hover:opacity-100 h-4 w-fit">Главный банер</a>
+        <a className="opacity-85 cursor-pointer hover:opacity-100 h-4 w-fit">Миссия</a>
+        <a className="opacity-85 cursor-pointer hover:opacity-100 h-4 w-fit">Преимущества</a>
+        <a className="opacity-85 cursor-pointer hover:opacity-100 h-4 w-fit">Команда</a>
+        <a className="opacity-85 cursor-pointer hover:opacity-100 h-4 w-fit">Ценности</a>
+        <a className="opacity-85 cursor-pointer hover:opacity-100 h-4 w-fit">Вакансии</a>
+        <a className="opacity-85 cursor-pointer hover:opacity-100 h-4 w-fit">Документы</a>
+        <a className="opacity-85 cursor-pointer hover:opacity-100 h-4 w-fit">Заявка</a>
       </div>
       <div className="grid grid-rows-3 grid-cols-2 lg:grid-cols-1 lg:grid-rows-5 h-[135px] lg:h-[225px]">
-        <div className="text-[#999999] text-sm">Блог</div>
-        <div>Главный банер</div>
-        <div>Поиск</div>
-        <div>Статьи</div>
-        <div>Рассылка</div>
+        <a className="text-[#999999] text-sm cursor-poiner hover:text-white hover:opacity-80 h-fit w-fit">Блог</a>
+        <a className="opacity-85 cursor-pointer hover:opacity-100 h-4 w-fit">Главный банер</a>
+        <a className="opacity-85 cursor-pointer hover:opacity-100 h-4 w-fit">Поиск</a>
+        <a className="opacity-85 cursor-pointer hover:opacity-100 h-4 w-fit">Статьи</a>
+        <a className="opacity-85 cursor-pointer hover:opacity-100 h-4 w-fit">Рассылка</a>
       </div>
       <div className="grid grid-rows-3 grid-cols-2 lg:grid-cols-1 lg:grid-rows-6 h-[135px] lg:h-[270px]">
-        <div className="text-[#999999] text-sm">Sevices</div>
-        <div>Valuation Mastery</div>
-        <div>Strategic Marketing</div>
-        <div>Negotiation Wizardry</div>
-        <div>Closing Success</div>
-        <div>Property Managment</div>
+        <a className="text-[#999999] text-sm cursor-poiner hover:text-white hover:opacity-80 h-fit w-fit">Sevices</a>
+        <a className="opacity-85 cursor-pointer hover:opacity-100 h-4 w-fit">Valuation Mastery</a>
+        <a className="opacity-85 cursor-pointer hover:opacity-100 h-4 w-fit">Strategic Marketing</a>
+        <a className="opacity-85 cursor-pointer hover:opacity-100 h-4 w-fit">Negotiation Wizardry</a>
+        <a className="opacity-85 cursor-pointer hover:opacity-100 h-4 w-fit">Closing Success</a>
+        <a className="opacity-85 cursor-pointer hover:opacity-100 h-4 w-fit">Property Managment</a>
       </div>
       <div className="grid grid-rows-2 grid-cols-2 lg:grid-cols-1 lg:grid-rows-3 h-[90px] lg:h-[135px]">
-        <div className="text-[#999999] text-sm">Contact Us</div>
-        <div>Contact Form</div>
-        <div>Our Offices</div>
+        <a className="text-[#999999] text-sm cursor-poiner hover:text-white hover:opacity-80 h-fit w-fit">Contact Us</a>
+        <a className="opacity-85 cursor-pointer hover:opacity-100 h-4 w-fit">Contact Form</a>
+        <a className="opacity-85 cursor-pointer hover:opacity-100 h-4 w-fit">Our Offices</a>
       </div>
     </div>
   );

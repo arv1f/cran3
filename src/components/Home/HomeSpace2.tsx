@@ -8,8 +8,8 @@ function HomeSpace2() {
       />
       <div className="relative z-10 grid grid-cols-[1fr_auto] mt-2 w-full">
         <div className="w-full flex flex-col items-end">
-          <div className="text-nowrap text-sm md:text-[20px] lg:text-[24px] xl:text-[40px] 2xl:text-[40px] tracking-normal leading-tight font-bold">
-            Наш подход - измеримый результат
+          <div className="text-nowrap text-2xl md:text-[30px] lg:text-[30px] xl:text-[40px] 2xl:text-[40px] tracking-normal leading-tight font-bold">
+            Наш подход - <br className="sm:hidden"/>измеримый результат
           </div>
           <div className="text-right text-xs text-[#999999] w-[90%] mt-3 text-[Inter]">
             Каждый этап прозрачен, измерим и ориентирован на достижение поставленых метрик

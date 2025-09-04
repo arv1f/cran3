@@ -1,7 +1,9 @@
+import Righticon from "../../public/icons/Righticon";
 import Button from "../ui/Button";
 function HomeContainer6() {
   return(
-    <div className="mt-10 grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 px-2 lg:px-0">
+  <div className="mt-10 px-2 lg:px-0">
+    <div className="gap-6 grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3">
       <div className="border border-[#262626] p-6 gap-6 rounded-lg p-4 grid ">
         <img src="src\public\image\image1.png" alt="" />
         <div>Почему ERP не даёт прибыли — и что с этим делать</div>
@@ -38,5 +40,16 @@ function HomeContainer6() {
         <Button buttonType="purple" className="w-full">Читать полностью</Button>
       </div>
     </div>
+    <div className="mt-12 border-t-2 border-[#262626] px-2 lg:px-0 py-4 relative flex flex-col items-end col-start-1 col-end-5">
+        <div className="text-xs text-[#999999] text-[Montserrat] absolute left-0 font-medium">
+          <span className="text-white">01</span> of 60
+        </div>
+        <div className="col-start-3">
+          <Righticon className="opacity-45 scale-x-[-1] mr-2 cursor-pointer hover:opacity-100"/>
+          <Righticon className="opacity-75 cursor-pointer hover:opacity-100"/>
+        </div>
+      </div>
+  </div>
+    
   );};
 export default HomeContainer6;
