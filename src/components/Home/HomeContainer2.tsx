@@ -1,6 +1,6 @@
 function HomeContainer2() {
   return(
-  <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-14 px-1">
+  <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 mt-14 px-1">
     <div className="grid grid-rows-[40px_auto_30%] border border-[#262626] p-6 px-3 xl:px-6 gap-10">
       <div className="text-base lg:text-[16px] xl:text-[20px] font-extrabold w-full">Погружение в процессы</div>
       <div className="">

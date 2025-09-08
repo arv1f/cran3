@@ -21,7 +21,7 @@ const Button = ({
   }
 
   if (buttonType === "black") {
-    baseStyles += " text-xs lg:text-sm hover:bg-[#101010]";//Вначале важно пробел не забывать чтобы стили не слетали
+    baseStyles += " text-[8px] hover:bg-[#101010] py-1 h-[48px]";//Вначале важно пробел не забывать чтобы стили не слетали
   } else if (buttonType === "purple") {
     baseStyles += " h-[49px] text-xs bg-[#9966CC] hover:bg-[#9955BB] tracking-wide";
   }

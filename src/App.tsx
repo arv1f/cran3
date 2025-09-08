@@ -8,6 +8,7 @@ import UpHeader from './components/UpHeader';
 import DownFooter from "./components/DownFooter";
 import Footer from "./components/Footer";
 import Blog from './page/Blog';
+import "./styles/index.css"
 
 function App() {
   const [isUpHeaderVisible, setIsUpHeaderVisible] = useState(true);
@@ -34,9 +35,9 @@ function App() {
   };
   return (
     <BrowserRouter>
-      <div className="grid grid-cols-12 bg-[#101010] -z-30 text-[#ffffff] min-h-screen overflow-x-hidden">
-        <div className="hidden lg:block col-span-1"></div>
-        <div className="col-span-12 lg:col-span-10">
+      <div className="grid grid-cols-10 xl:grid-cols-12 bg-[#101010] -z-30 text-[#ffffff] min-h-screen overflow-x-hidden">
+        <div className="hidden xl:block xl:col-span-1"></div>
+        <div className="col-span-12 xl:col-span-10">
         <UpHeader 
           isVisible={isUpHeaderVisible} 
           onClose={handleUpHeaderClose} 
@@ -53,7 +54,7 @@ function App() {
         <Footer />
         <DownFooter/>
         </div>
-        <div className="hidden lg:block lg:col-span-1"></div>
+        <div className="hidden xl:block xl:col-span-1"></div>
       </div>
     </BrowserRouter>
   );
