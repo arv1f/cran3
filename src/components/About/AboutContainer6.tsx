@@ -2,7 +2,7 @@ import Button from "../ui/Button";
 
 function AboutContainer6() {
   return(
-    <div className="border border-[#262626] mt-12 rounded-lg grid grid-rows-[25%_8%_32%_7%_20%] md:grid-rows-[30%_7%_28%_7%_23%] lg:grid-rows-[36%_8%_20%_4%_32%] px-[3%] h-[620px] sm:h-[350px] md:h-[340px] lg:h-[300px] mx-1 lg:mx-0">
+    <div className="border border-[#262626] mt-12 grid grid-rows-[25%_8%_32%_7%_20%] md:grid-rows-[30%_7%_28%_7%_23%] lg:grid-rows-[36%_8%_20%_4%_32%] px-[3%] h-[620px] sm:h-[350px] md:h-[340px] lg:h-[300px] mx-1 lg:mx-0">
       <div className="row-start-1 grid grid-cols-1 sm:grid-cols-[1fr_auto] items-center">
         <div className="text-lg">Реквизиты</div>
         <Button borderTransparent={false} className="bg-[#1A1A1A] sm:w-full -ml-[4px] md:-ml-[20%] lg:ml-0">Полная юридическая информация и документы</Button>
@@ -55,7 +55,7 @@ const Info = ({
   className,
   ...props
 } : InfoProps) => {
-  const baseStyles = "w-fit text-xs text-[#999999] border border-[#262626] rounded-xl bg-[#1A1A1A] p-1 h-6 flex items-center justify-center"
+  const baseStyles = "w-fit text-xs text-[#999999] border border-[#262626] bg-[#1A1A1A] p-1 h-6 flex items-center justify-center"
   return(
     <div className={`${baseStyles} ${className || ""}`}
       {...props}>{children}</div>

@@ -5,12 +5,8 @@ function Footer() {
     <div className="grid grid-rows-[10%_auto] lg:grid-rows px-3 lg:px-0 lg:grid-cols-[36%_12.8%_12.8%_12.8%_12.8%_12.8%] text-xs gap-2 mt-24 h-[1000px] lg:h-[500px]">
       <div>
         <div className="lg:-ml-6 grid grid-cols-[38px_auto] md:grid-cols-[40px_auto] lg:grid-cols-[44px_auto] col-start-1 h-[48px] lg:h-[55px] mt-[2px]"> 
-          <div className="w-[34px] md:w-[36px] lg:w-[40px]">
-            <CRANicon size={"100%"}/>
-          </div>
-          <div className="grid grid-rows-[50%] md:grid-rows-[50%] lg:grid-rows-[60%] h-[50px]">
-            <div className="text-xl md:text-xl lg:text-2xl font-semibold tracking-wider ">CRAN</div>
-            <div className="text-xs font-thin tracking-wider">Digital Agency</div>
+          <div className="w-[144px] md:w-[140px] lg:w-[184px] h-[49px]">
+            <CRANicon width={'100%'} height={"100%"} />
           </div>
         </div>
       </div>

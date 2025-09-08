@@ -4,10 +4,10 @@ function AboutContainer4() {
   return (
     <div className="grid place-items-center lg:place-items-[] grid-cols-1 px-3 gap-4 sm:grid-cols-2 md:px-[10%] lg:px-0 lg:grid-cols-4 mt-10">
 
-      <div className="border border-[#262626] rounded-lg p-4 flex flex-col h-[450px] xl:h-[450px]">
+      <div className="border border-[#262626] p-4 flex flex-col h-[450px] xl:h-[450px]">
         <div className="relative flex-1 mb-4 mt-6 items-center justify-center flex">
           <img
-            className="w-full max-w-[250px] max-h-[300px] h-full object-cover object-center rounded-lg"
+            className="w-full max-w-[250px] max-h-[300px] h-full object-cover object-center"
             src="src\public\image\Image (2).png"
             alt="Артём Волконитин"
           />
@@ -24,10 +24,10 @@ function AboutContainer4() {
         </div>
       </div>
 
-      <div className="border border-[#262626] rounded-lg p-4 flex flex-col h-[450px] xl:h-[450px]">
+      <div className="border border-[#262626] p-4 flex flex-col h-[450px] xl:h-[450px]">
         <div className="relative flex-1 mb-4 mt-6 items-center justify-center flex">
           <img
-            className="w-full max-w-[250px] max-h-[300px] h-full object-cover object-center rounded-lg"
+            className="w-full max-w-[250px] max-h-[300px] h-full object-cover object-center"
             src="src\public\image\Image (3).png"
             alt="Ян Лаптев"
           />
@@ -44,10 +44,10 @@ function AboutContainer4() {
         </div>
       </div>
       
-      <div className="border border-[#262626] rounded-lg p-4 flex flex-col h-[450px] xl:h-[450px]">
+      <div className="border border-[#262626] p-4 flex flex-col h-[450px] xl:h-[450px]">
         <div className="relative flex-1 mb-4 mt-6 items-center justify-center flex">
           <img
-            className="w-full max-w-[250px] max-h-[300px] h-full object-cover object-center rounded-lg"
+            className="w-full max-w-[250px] max-h-[300px] h-full object-cover object-center"
             src="src\public\image\Image (4).png"
             alt="Родион Чикибаев"
           />
@@ -64,10 +64,10 @@ function AboutContainer4() {
         </div>
       </div>
        
-      <div className="border border-[#262626] rounded-lg p-4 flex flex-col h-[450px] xl:h-[450px]">
+      <div className="border border-[#262626] p-4 flex flex-col h-[450px] xl:h-[450px]">
         <div className="relative flex-1 mb-4 mt-6 items-center justify-center flex">
           <img
-            className="w-full max-w-[250px] max-h-[300px] h-full object-cover object-center rounded-lg"
+            className="w-full max-w-[250px] max-h-[300px] h-full object-cover object-center"
             src="src\public\image\Image (5).png"
             alt="Артемий Доброхотов"
           />

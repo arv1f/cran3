@@ -6,7 +6,7 @@ function HomeContainer1() {
     <div className="mt-[130px] md:mt-[120px] relative grid grid-rows-[0px] lg:grid-rows-[100%] lg:grid-cols-1 lg:grid-cols-[55.5%_44.5%] h-[800px] lg:h-[664px] w-full">
       <div className="col-start-1 pt-1 lg:mt-[115px] w-[100%] z-10 px-[4%]">
         <div>
-          <div className="text-[36px] md:text-[48px] lg:text-[58px] xl:text-[76px] 2xl:text-[96px] leading-none font-extrabold">РАЗРАБОТКА</div>{/*text-[96px] text-[40px]*/}
+          <div className="text-[36px] md:text-[48px] lg:text-[56px] xl:text-[72px] 2xl:text-[96px] leading-none font-extrabold">РАЗРАБОТКА</div>{/*text-[96px] text-[40px]*/}
           <div className="text-sm md:text-[20px] lg:text-[24px] xl:text-[32px] 2xl:text-[40px] tracking-normal leading-tight font-[800]">ОПТИМАЛЬНЫХ IT-РЕШЕНИЙ</div>
         </div>
         <div className="text-xs text-[#F5DFDF] w-[100%] mt-4 text-[Inter]">Мы анализируем бизнес-процессы, выявляем точки потерь, создаём и внедряем алгоритмы, которые повышают Вашу рентабельность</div>
@@ -24,7 +24,7 @@ function HomeContainer1() {
         <img className="absolute inset-0 w-full h-[620px] object-cover z-0 hidden lg:block"
         src="src\public\image\Untitled 1.png"/>
 
-        <div className="absolute -left-[70px] top-[40.9%] z-30 hidden lg:block
+        <div className="absolute -left-[62px] xl:-left-[70px] top-[19.5%] z-30 hidden lg:block
           w-[50px] h-[50px] md:w-[85px] md:h-[85px] lg:w-[120px] lg:h-[120px] xl:w-[140px] xl:h-[140px]">
           <img className="absolute inset-0 bg-cover bg-center animate-[spin_30s_linear_infinite]"
           src="src\public\image\Sub Container (1).png"/>

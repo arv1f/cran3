@@ -1,7 +1,7 @@
 function ContactContainer3() {
   return(
     <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 mt-8 px-3 lg:px-0">
-      <div className="border border-[#262626] rounded-lg grid grid-rows-[10%_42%_3%_45%] sm:grid-rows-[13%_42%_5%_30%] p-6 h-[900px] lg:h-[505px]">
+      <div className="border border-[#262626]grid grid-rows-[10%_42%_3%_45%] sm:grid-rows-[13%_42%_5%_30%] p-6 h-[900px] lg:h-[505px]">
         <div className="row-start-1 text-lg font-[700] text-white xl:text-nowrap">Для среднего бизнеса</div>
         <div className="row-start-2 text-xs text-[#999999] font-medium">
             <ul className="list-none space-y-[6px] pl-0 text-[#999999]">
@@ -39,7 +39,7 @@ function ContactContainer3() {
         </div>
       </div>
 
-      <div className="border border-[#262626] rounded-lg grid grid-rows-[10%_52%_3%_35%] sm:grid-rows-[13%_42%_5%_40%] p-6 h-[820px] sm:h-[505px]">
+      <div className="border border-[#262626] grid grid-rows-[10%_52%_3%_35%] sm:grid-rows-[13%_42%_5%_40%] p-6 h-[820px] sm:h-[505px]">
         <div className="row-start-1 text-lg font-[700] text-white xl:text-nowrap">Для крупного бизнеса</div>
         <div className="row-start-2 text-xs text-[#999999] font-medium">
             <ul className="list-none space-y-[6px] pl-0 text-[#999999]">

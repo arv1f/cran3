@@ -9,7 +9,7 @@ const Cell = ({
   className,
   ...props
 }: CellProps) => {
-  const baseStyles = "z-10 p-4 bg-[#161616] border border-[#262626] rounded-lg";
+  const baseStyles = "z-10 p-4 bg-[#161616] border border-[#262626]";
   
   return (
     <div

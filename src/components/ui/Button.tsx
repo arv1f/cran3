@@ -21,9 +21,9 @@ const Button = ({
   }
 
   if (buttonType === "black") {
-    baseStyles += " text-xs hover:bg-[#101010] rounded-lg";//Вначале важно пробел не забывать чтобы стили не слетали
+    baseStyles += " text-xs lg:text-sm hover:bg-[#101010]";//Вначале важно пробел не забывать чтобы стили не слетали
   } else if (buttonType === "purple") {
-    baseStyles += " h-[49px] text-xs bg-[#9966CC] hover:bg-[#9955BB] tracking-wide rounded-md";
+    baseStyles += " h-[49px] text-xs bg-[#9966CC] hover:bg-[#9955BB] tracking-wide";
   }
   
   return (

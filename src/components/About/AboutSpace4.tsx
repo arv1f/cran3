@@ -3,7 +3,7 @@ import { CirclePeople, CircleStar, CircleStudy } from "../../public/icons/Compan
 function AboutSpace4() {
   return(
     <div className="grid grid-cols-1 grid-rows-[1_auto] md:grid-cols-[2fr_1fr] mt-12 gap-[1.5%] lg:gap-[5%] px-3 lg:px-0">
-      <div className="grid grid-cols-1 grid-rows-4 md:grid-cols-[49%_1%_49%] md:grid-rows-[45%_1%_49%] gap-y-4 gap-x-[6px] lg:gap-4 border rounded border-[#262626] shadow-[0_0_0_6px_#191919] px-2 lg:px-8 py-10 md:h-[500px] mt-12 md:mt-4">
+      <div className="grid grid-cols-1 grid-rows-4 md:grid-cols-[49%_1%_49%] md:grid-rows-[45%_1%_49%] gap-y-4 gap-x-[6px] lg:gap-4 border border-[#262626] shadow-[0_0_0_6px_#191919] px-2 lg:px-8 py-10 md:h-[500px] mt-12 md:mt-4">
         <div className="col-start-1 row-start-1 p-2 min-h-[170px] w-[95%] py-4 md:py-0 -mt-6 md:mt-0">
           <div className="text-nowrap space-x-2"><CircleStar className="w-10 h-12 lg:w-[60px] lg:h-11 mb-1 text-[24px]"/><span>Ответственность</span></div>
           <div className="text-xs text-[#999999] mt-1 lg:mt-2">Мы не сдаём проект — мы отвечаем за то, как он работает в вашей среде</div>

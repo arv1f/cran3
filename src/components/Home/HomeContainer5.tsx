@@ -2,7 +2,7 @@ import Staricon from "../../public/icons/Staricon";
 function HomeContainer5() {
   return(
     <div className="mt-10 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 px-2">
-      <div className="w-full border border-[#262626] p-6 gap-6 rounded-lg p-4 grid grid-rows-[10%_10%_35%]">
+      <div className="w-full border border-[#262626] p-6 gap-6 p-4 grid grid-rows-[10%_10%_35%]">
         <div className="grid grid-cols-5 gap-[1px] w-[200px]">
           <Staricon/>
           <Staricon/>
@@ -21,7 +21,7 @@ function HomeContainer5() {
         </div>
       </div>
 
-      <div className="w-full border border-[#262626] p-6 gap-6 rounded-lg p-4 grid grid-rows-[10%_10%_35%]">
+      <div className="w-full border border-[#262626] p-6 gap-6 p-4 grid grid-rows-[10%_10%_35%]">
         <div className="grid grid-cols-5 gap-[1px] w-[200px]">
           <Staricon/>
           <Staricon/>
@@ -40,7 +40,7 @@ function HomeContainer5() {
         </div>
       </div>
       
-      <div className="w-full border border-[#262626] p-6 gap-6 rounded-lg p-4 grid grid-rows-[10%_10%_35%]">
+      <div className="w-full border border-[#262626] p-6 gap-6 p-4 grid grid-rows-[10%_10%_35%]">
         <div className="grid grid-cols-5 gap-[1px] w-[200px]">
           <Staricon/>
           <Staricon/>

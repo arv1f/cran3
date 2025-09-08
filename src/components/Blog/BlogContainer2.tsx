@@ -21,7 +21,7 @@ function BlogContainer2 () {
           </span>
         </div>
       </div>
-      <div className="flex items-center space-x-2 border rounded-lg border-[#262626] bg-[#101010] text-[#999999] px-2 py-3 mt-4 md:mt-0 mg:ml-[10%] md:w-[90%] lg:ml-[20%] lg:w-[80%] hover:border-[#404040] transition-colors">
+      <div className="flex items-center space-x-2 border border-[#262626] bg-[#101010] text-[#999999] px-2 py-3 mt-4 md:mt-0 mg:ml-[10%] md:w-[90%] lg:ml-[20%] lg:w-[80%] hover:border-[#404040] transition-colors">
         <Mailicon className="w-6 h-6"/>
         <input 
           type="text" 

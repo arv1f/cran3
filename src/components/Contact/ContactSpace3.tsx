@@ -13,20 +13,20 @@ function ContactSpace3() {
         </div>
       </div>
 
-      <div className="border border-[#262626] rounded-lg grid grid-rows-[10%_0%_45%] lg:grid-rows-[12%_4%_40%_4%_40%] gap-y-2 p-6 h-[900px] lg:h-[420px] mt-8">
+      <div className="border border-[#262626] grid grid-rows-[10%_0%_45%] lg:grid-rows-[12%_4%_40%_4%_40%] gap-y-2 p-6 h-[900px] lg:h-[420px] mt-8">
         <div className="row-start-1 text-base sm:text-lg font-[700] text-white xl:text-nowrap">Гибкий тариф —<br className="sm:hidden" />соберите свой объём</div>
         <div className="hidden lg:block row-start-2 border-t border-[#262626]" />
         <div className="row-start-3 grid grid-rows-2 lg:grid-cols-[47%_0%_47%] gap-4">
           <div className="col-start-1 space-y-7 w-full">
             <div className="text-xs text-[#999999]">Выберите количество задач в месяц (от 1 до 20)</div>
-            <div className="max-h-[70px] border rounded border-[#262626] bg-[#1A1A1A] text-[#666666] px-3 py-3">
+            <div className="max-h-[70px] border border-[#262626] bg-[#1A1A1A] text-[#666666] px-3 py-3">
               <input type="text" placeholder="Enter First Name" className="bg-transparent outline-none placeholder-[#666666]"/>
             </div>
           </div>
           <div className="hidden lg:block col-start-2 border-l border-[#262626]"/>
           <div className="lg:col-start-3 space-y-3 w-full">
             <div className="text-xs text-[#999999]">Добавьте специалистов: разработчик, аналитик,<br/> ML-инженер и др.</div>
-            <div className="max-h-[70px] border rounded border-[#262626] bg-[#1A1A1A] text-[#666666] px-3 py-3">
+            <div className="max-h-[70px] border border-[#262626] bg-[#1A1A1A] text-[#666666] px-3 py-3">
               <input type="text" placeholder="Enter First Name" className="bg-transparent outline-none placeholder-[#666666]"/>
             </div>
           </div>
@@ -35,14 +35,14 @@ function ContactSpace3() {
         <div className="row-start-5 grid grid-rows-2 lg:grid-cols-[47%_0%_47%] gap-4">
           <div className="col-start-1 space-y-3 w-full">
             <div className="text-xs text-[#999999]">Укажите необходимость интеграций, поддержки,<br /> внедрения ИИ</div>
-            <div className="max-h-[70px] border rounded border-[#262626] bg-[#1A1A1A] text-[#666666] px-3 py-3">
+            <div className="max-h-[70px] border border-[#262626] bg-[#1A1A1A] text-[#666666] px-3 py-3">
               <input type="text" placeholder="Enter First Name" className="bg-transparent outline-none placeholder-[#666666]"/>
             </div>
           </div>
           <div className="hidden lg:block col-start-2 border-l border-[#262626]" />
           <div className="lg:col-start-3 space-y-7 w-full">
             <div className="text-xs text-[#999999]">Уточните SLA: стандартный или приоритетный</div>
-            <div className="max-h-[70px] border rounded border-[#262626] bg-[#1A1A1A] text-[#666666] px-3 py-3">
+            <div className="max-h-[70px] border border-[#262626] bg-[#1A1A1A] text-[#666666] px-3 py-3">
               <input type="text" placeholder="Enter First Name" className="bg-transparent outline-none placeholder-[#666666]"/>
             </div>
           </div>

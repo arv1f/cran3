@@ -13,9 +13,9 @@ function AboutContainer1() {
       </div>
 
       
-      <div className="opacity-70 lg:opacity-100 col-start-1 lg:col-start-2 relative -z-1 h-[446px] border-2 border-[#141414] rounded-xl overflow-hidden">
+      <div className="opacity-70 lg:opacity-100 col-start-1 lg:col-start-2 relative -z-1 h-[446px] border-2 border-[#141414] overflow-hidden">
     <img 
-        className="w-full h-full object-cover hidden lg:block rounded-lg"
+        className="w-full h-full object-cover hidden lg:block"
         src="src/public/image/Sub Container2.png"
         alt="Description"
     />
