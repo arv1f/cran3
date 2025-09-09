@@ -50,9 +50,9 @@ function HomeContainer7() {
           />
           <span className="text-xs text-[#999999] whitespace-normal xl:whitespace-nowrap">
             Даю согласие на{" "}
-            <span className="underline underline-offset-4 cursor-pointer hover:text-white">обработку персональных данных</span>{" "}
+            <a href='https://cranproject.ru/legal/' className="underline underline-offset-4 cursor-pointer hover:text-white" >обработку персональных данных</a>{" "}
             и{" "}
-            <span className="underline underline-offset-4 cursor-pointer hover:text-white">соглашаюсь с политикой конфиденциальности.</span>
+            <a href='https://cranproject.ru/legal/' className="underline underline-offset-4 cursor-pointer hover:text-white">соглашаюсь с политикой конфиденциальности.</a>
           </span>
         </div>
         <Button buttonType="purple" className="row-start-2 lg:row-start-1 lg:col-start-2 lg:-ml-4 xl:ml-11 w-full md:w-[180px] -mt-2 md:mt-0">Оставить заявку</Button>

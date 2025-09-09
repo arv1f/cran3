@@ -2,8 +2,8 @@ function HomeSpace4() {
   return(
     <div className="relative flex flex-col items-end mt-14 mr-0 lg:mr-3 lg:mr-0 pr-[4px] sm:px-3">
       <img 
-        className="inset-0 w-[60px] h-[20px] object-cover z-0 -ml-[2%] scale-x-[-1]"
-        src="src\public\image\stars.png"
+        className="inset-0 w-[60px] h-[20px] object-cover z-0 -ml-[2%]"
+        src="src\public\image\starsRight.png"
         alt="stars"
       />
         <div className="w-full flex flex-col items-end mt-5">

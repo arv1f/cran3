@@ -32,8 +32,8 @@ function AboutSpace4() {
 
       </div>
       <div className="row-start-1 md:col-start-2 flex flex-col gap-2 justify-center md:-mt-2">
-        <img src="src\public\image\stars.png"alt="stars"
-        className="inset-0 w-[60px] h-[20px] object-cover z-0 -ml-[2%] md:scale-x-[-1] md:items-end -ml-[1px] md:ml-auto"/>
+        <img src="src\public\image\starsRight.png"alt="stars"
+        className="inset-0 w-[60px] h-[20px] object-cover z-0 -ml-[2%] md:items-end -ml-[1px] md:ml-auto"/>
         <div className="text-2xl md:text-[30px] lg:text-[30px] xl:text-[40px] 2xl:text-[40px] tracking-normal leading-10 font-[600]">Ценности <br className="hidden md:block"/>компании</div>
         <div className="text-xs text-[#999999]">Мы верим, что технологии должны работать на людей — внутри системы и за её пределами.</div>
       </div>

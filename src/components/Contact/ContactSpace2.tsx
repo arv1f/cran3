@@ -2,8 +2,8 @@ function ContactSpace2() {
   return(
     <div className="relative flex flex-col items-end mt-6 lg:-mt-[250px] mr-2 lg:mr-0">
       <img 
-        className="inset-0 w-[60px] h-[20px] object-cover z-0 -ml-[2%] scale-x-[-1]"
-        src="src\public\image\stars.png"
+        className="inset-0 w-[60px] h-[20px] object-cover z-0 -ml-[2%]"
+        src="src\public\image\starsRight.png"
         alt="stars"
       />
       <div className="relative z-10 grid grid-cols-[1fr_auto] mt-2 w-full">

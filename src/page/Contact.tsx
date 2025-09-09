@@ -14,8 +14,8 @@ function Contact() {
       <ContactContainer2 />
       <ContactSpace2 />
       <ContactContainer3 />
-      <HomeContainer7 />
       <ContactSpace3 />
+      <HomeContainer7 />
     </>
   );
 };
