@@ -35,9 +35,8 @@ function App() {
   };
   return (
     <BrowserRouter>
-      <div className="grid grid-cols-10 xl:grid-cols-12 bg-[#101010] -z-30 text-[#ffffff] min-h-screen overflow-x-hidden">
-        <div className="hidden xl:block xl:col-span-1"></div>
-        <div className="col-span-12 xl:col-span-10">
+      <div className="-z-30 bg-[#101010] text-[#ffffff] min-h-screen overflow-x-hidden">
+        <div className="px-2 md:px-6 lg:px-8 xl:px-12 xl:mx-auto xl:max-w-7xl">
         <UpHeader 
           isVisible={isUpHeaderVisible} 
           onClose={handleUpHeaderClose} 
@@ -54,7 +53,6 @@ function App() {
         <Footer />
         <DownFooter/>
         </div>
-        <div className="hidden xl:block xl:col-span-1"></div>
       </div>
     </BrowserRouter>
   );

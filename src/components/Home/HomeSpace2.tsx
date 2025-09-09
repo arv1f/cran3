@@ -6,16 +6,14 @@ function HomeSpace2() {
         src="src\public\image\stars.png"
         alt="stars"
       />
-      <div className="relative z-10 grid grid-cols-[1fr_auto] mt-2 w-full">
-        <div className="w-full flex flex-col items-end">
-          <div className="text-nowrap text-2xl md:text-[30px] lg:text-[30px] xl:text-[40px] 2xl:text-[40px] tracking-normal leading-tight font-bold">
-            Наш подход - <br className="sm:hidden"/>измеримый результат
+        <div className="w-full flex flex-col items-end mt-2">
+          <div className="tracking-wider text-right text-[22px] sm:text-[28px] md:text-[30px] lg:text-[35px] xl:text-[40px] 2xl:text-[40px] font-[800] leading-none w-[96%] sm:w-[107%] xl:w-full">
+            Наш подход - измеримый результат
           </div>
-          <div className="text-right text-xs text-[#999999] w-[90%] mt-3 text-[Inter]">
+          <div className="text-right text-xs text-[#999999] w-[90%] mt-3 font-[Inter] font-medium">
             Каждый этап прозрачен, измерим и ориентирован на достижение поставленых метрик
           </div>
         </div>
-      </div>
     </div>
   );
 }

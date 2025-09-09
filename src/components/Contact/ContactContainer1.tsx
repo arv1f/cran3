@@ -13,11 +13,11 @@ function ContactContainer1() {
         <Button buttonType="purple" className="mt-10 text-xl">Назначить встречу</Button>
       </div>
 
-      <div className="col-start-1 lg:col-start-2 lg:top-0 relative w-[122.5%] -z-1">
+      <div className="col-start-1 lg:col-start-2 lg:top-0 relative w-[110%] -z-1">
         <img className="opacity-70 lg:opacity-100 absolute inset-0 w-full h-[1300px] -mt-[215px] lg:-mt-[40px] lg:h-[552px] object-cover z-0"
         src="src\public\image\Group.png"/>
 
-        <div className="grid grid-cols-1 lg:grid-cols-3 w-[81%] lg:w-full mt-16 gap-3 gap-y-10 p-4">
+        <div className="grid grid-cols-1 lg:grid-cols-3 w-[81%] lg:w-full mt-16 gap-3 gap-y-6 lg:gap-y-10 p-4">
           <Cell heading="6 мес.">Среднее время выхода на прибыль</Cell>
           <Cell heading="0%">Риска шаблонных решений</Cell>
           <Cell heading="2,1 млн ₽">Годовая экономия на логистике</Cell>

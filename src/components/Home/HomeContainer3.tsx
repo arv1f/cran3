@@ -2,7 +2,7 @@ import React from 'react';
 import Lighticon from '../../public/icons/Lighticon';
 function HomeContainer3() {
   return(
-    <div className='mt-12 px-3 lg:px-0'>
+    <div className='mt-12'>
       <AdaptiveSvgComponent/>
       <SvgComponent/>
       <div className='grid grid-rows-6 gap-4 px-1 md:hidden'>
@@ -13,7 +13,7 @@ function HomeContainer3() {
         <PinkBox>Согласование и внедрение</PinkBox>
         <PinkBox>Поддержка и развитие</PinkBox>
       </div>
-      <div className='text-xs text-[#999999] mt-6 ml-2 lg:ml-0'>Мы не гонимся за скоростью ради скорости — каждый этап направлен на создание измеримой бизнес-ценности. Такой подход позволяет уже на второй неделе демонстрировать прототип с реальной логикой вашего процесса</div>
+      <div className='text-xs font-[Inter] font-medium text-[#999999] mt-6 ml-1 lg:ml-0'>Мы не гонимся за скоростью ради скорости — каждый этап направлен на создание измеримой бизнес-ценности. Такой подход позволяет уже на второй неделе демонстрировать прототип с реальной логикой вашего процесса</div>
     </div>
       );};
 export default HomeContainer3;

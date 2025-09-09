@@ -12,7 +12,7 @@ const Button = ({
   className,
   ...props
 }: ButtonProps) => {
-  let baseStyles = "z-10 text-[#F5DFDF] text-medium w-fit px-[15px] xl:px-[15px] h-[48px] flex items-center justify-center border hover:border-[#262626]";
+  let baseStyles = "z-10 text-[#F5DFDF] font-medium w-fit px-[15px] xl:px-[15px] h-[48px] flex items-center justify-center border hover:border-[#262626]";
 
   if (borderTransparent){//Для кнопки Контакты из header
     baseStyles += " border-transparent";
@@ -21,7 +21,7 @@ const Button = ({
   }
 
   if (buttonType === "black") {
-    baseStyles += " text-[8px] hover:bg-[#101010] py-1 h-[48px]";//Вначале важно пробел не забывать чтобы стили не слетали
+    baseStyles += " font-[Inter] font-[400] text-[8px] hover:bg-[#101010] py-1 h-[48px]";//Вначале важно пробел не забывать чтобы стили не слетали
   } else if (buttonType === "purple") {
     baseStyles += " h-[49px] text-xs bg-[#9966CC] hover:bg-[#9955BB] tracking-wide";
   }
