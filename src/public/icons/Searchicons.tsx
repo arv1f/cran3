@@ -17,7 +17,7 @@ export const Searchicon = React.forwardRef<SVGSVGElement, IconProps>(
       className={`inline-block align-middle ${className}`}
       {...props}
     >
-      <rect width="72" height="60" rx="10" fill="#9966CC"/>
+      <rect width="72" height="60" fill="#9966CC"/>
       <path d="M45 39L39.8033 33.8033M39.8033 33.8033C41.1605 32.4461 42 30.5711 42 28.5C42 24.3579 38.6421 21 34.5 21C30.3579 21 27 24.3579 27 28.5C27 32.6421 30.3579 36 34.5 36C36.5711 36 38.4461 35.1605 39.8033 33.8033Z" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
     </svg>
   )

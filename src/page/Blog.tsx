@@ -4,11 +4,11 @@ import HomeContainer6 from "../components/Home/HomeContainer6";
 
 function Blog() {
   return(
-    <>
+    <div className="lg:px-10">
       <BlogContainer1 />
       <HomeContainer6 />
       <BlogContainer2 />
-    </>
+    </div>
   );
 };
 export default Blog;

@@ -2,7 +2,7 @@ import Righticon from "../../public/icons/Righticon";
 import Button from "../ui/Button";
 function HomeContainer6() {
   return(
-  <div className="mt-10 px-2 lg:px-0">
+  <div className="mt-10">
     <div className="gap-5 grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3">
       <div className="border border-[#262626] p-6 gap-4 grid rounded-none grid-rows-[auto]">
         <img src="src\public\image\image1.png" className="clip-path-[polygon(0_0,100%_0,100%_90%,90%_100%,0_100%)] rounded-none" alt="" />

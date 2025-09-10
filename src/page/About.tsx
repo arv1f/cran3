@@ -14,7 +14,7 @@ import HomeContainer7 from "../components/Home/HomeContainer7";
 
 function About() {
   return(
-    <>
+    <div className="lg:ml-[4%]">
       <AboutContainer1/>
       <AboutSpace1/>
       <AboutContainer2/>
@@ -28,7 +28,7 @@ function About() {
       <AboutContainer6/>
       <AboutSpace6/>
       <HomeContainer7/>
-    </>
+    </div>
   );
 };
 export default About;

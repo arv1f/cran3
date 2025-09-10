@@ -5,7 +5,7 @@ function HomeContainer3() {
     <div className='mt-12'>
       <AdaptiveSvgComponent/>
       <SvgComponent/>
-      <div className='grid grid-rows-6 gap-4 px-1 md:hidden'>
+      <div className='grid grid-rows-6 gap-4 md:hidden'>
         <PinkBox icon={false}>Начало работы</PinkBox>
         <PinkBox>Анализ и аудит</PinkBox>
         <PinkBox>Прототип и тестирование</PinkBox>
@@ -34,7 +34,7 @@ const PinkBox = ({
   className,
   ...props
 }: PinkBoxProps) => {
-  const baseStyles = "text-sm sm:text-base text-nowrap flex items-center p-4 px-3 gap-[11px] h-[63px] bg-gradient-to-r from-[#1A1A1A] to-transparent border-l-[3px] border-l-[#9966CC] box-border"
+  const baseStyles = "text-[16px] sm:text-base text-nowrap flex items-center p-4 px-3 gap-[11px] h-[63px] bg-gradient-to-r from-[#1A1A1A] to-transparent border-l-[3px] border-l-[#9966CC] box-border"
   if (icon){
     return(
     <div

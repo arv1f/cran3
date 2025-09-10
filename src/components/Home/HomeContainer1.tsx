@@ -3,11 +3,11 @@ import Button from "../ui/Button";
 import Cell from "../ui/Cell";
 function HomeContainer1() {
   return(
-    <div className="mt-[130px] md:mt-[120px] relative grid grid-rows-[0px] lg:grid-rows-[100%] lg:grid-cols-1 lg:grid-cols-[60%_40%] xl:grid-cols-[55.5%_44.5%] h-[750px] lg:h-[664px] lg:px-10 w-full gap-8">
+    <div className="mt-[130px] md:mt-[120px] relative grid grid-rows-[0px] lg:grid-rows-[100%] lg:grid-cols-1 lg:grid-cols-[60%_40%] xl:grid-cols-[55.5%_44.5%] h-[750px] lg:h-[664px] lg:px-7 w-full gap-10">
       <div className="col-start-1 pt-1 lg:mt-[115px] w-[97%] z-10">
         <div>
-          <div className="text-[42px] sm:text-[70px] md:text-[72px] lg:text-[63px] xl:text-[80px] 2xl:text-[96px] leading-none font-black">РАЗРАБОТКА</div>{/*text-[96px] text-[40px]*/}
-          <div className="text-[19px] sm:text-2xl md:text-[xs] lg:text-[28px] xl:text-[34px] 2xl:text-[40px] tracking-normal leading-tight font-[800] -mt-1">ОПТИМАЛЬНЫХ IT-РЕШЕНИЙ</div>
+          <div className="text-[42px] sm:text-[70px] md:text-[72px] lg:text-[62px] xl:text-[75px] 2xl:text-[90px] leading-none font-black">РАЗРАБОТКА</div>{/*text-[96px] text-[40px]*/}
+          <div className="text-[19px] sm:text-2xl md:text-[xs] lg:text-[28px] xl:text-[33px] 2xl:text-[40px] tracking-normal leading-tight font-[800] -mt-1">ОПТИМАЛЬНЫХ IT-РЕШЕНИЙ</div>
         </div>
         <div className="text-xs text-[#F5DFDF] mt-4 font-[Inter] font-medium">Мы анализируем бизнес-процессы, выявляем точки потерь, создаём и внедряем алгоритмы, которые повышают Вашу рентабельность</div>
         <Button buttonType="purple" className="mt-6 lg:mt-10 text-xl">Запросить аудит процессов</Button>

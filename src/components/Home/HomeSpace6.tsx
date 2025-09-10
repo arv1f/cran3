@@ -7,7 +7,7 @@ function HomeSpace6() {
         alt="stars"
       />
         <div className="w-full flex flex-col items-end mt-2">
-          <div className="tracking-wider text-right text-[22px] sm:text-[28px] md:text-[30px] lg:text-[35px] xl:text-[40px] 2xl:text-[40px] font-[800] leading-none w-[96%] sm:w-[107%] xl:w-full">
+          <div className="tracking-wider text-right text-[30px] sm:text-[32px] md:text-[34px] lg:text-[36px] xl:text-[40px] 2xl:text-[42px] font-[800] leading-none w-[96%] sm:w-[107%] xl:w-full">
             Оставьте заявку
           </div>
           <div className="text-right text-xs text-[#999999] w-[90%] mt-3 font-[Inter] font-medium">
